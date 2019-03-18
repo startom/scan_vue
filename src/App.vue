@@ -68,9 +68,11 @@ export default {
     },
     flushTags(){
         this.$socket.emit('flushTags')
+        this.tags = [];
     },
     flushAnchors(){
         this.$socket.emit('flushAnchors')
+        this.anchors = [];
     }
   },
   sockets: {

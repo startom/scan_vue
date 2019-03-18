@@ -40,7 +40,6 @@ export default {
  	},
  	methods: {
  		flushTags(){
- 			this.tags = [];
  			this.$emit('flush-tags');
  		},
         toggle() {

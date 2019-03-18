@@ -41,7 +41,6 @@ export default {
  	},
  	methods: {
  		flushAnchors(){
- 			this.anchors = [];
  			this.$emit('flush-anchors');
  		},
         toggle() {
